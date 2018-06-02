@@ -12,7 +12,6 @@ TripShare is a Python Django Web Application that help users share there stories
 - `python3 manage.py createsuperuser` to create a super-admin user
 - `python3 manage.py runserver`
 - Check 127.0.0.1:8000 on your browser & login
-- Refresh database from Menu -> Database -> Refresh Course Codes & Refresh Courses
 
 # Contribution
 Everyone is welcome to contribute!  Also if you find any bugs or you have some ideas / feedback, please create an issue on [GitHub](https://github.com/vaibhavmathur91/TripShare/issues).
