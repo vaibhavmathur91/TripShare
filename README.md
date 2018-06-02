@@ -2,9 +2,11 @@
 
 TripShare is a Python Django Web Application that help users share there stories/experiences on different social media platform. 
 # Installation (Windows)
-- Install Python 3
+- Install Python 3.6.1
 - virtualenv -p 'C:\Program Files (x86)\Python36-32\python.exe'  setup
-- `pip3 install -r requirements.txt`
+- git init
+- git clone -b master https://github.com/vaibhavmathur91/TripShare.git
+- cd TripShare
 
 # Usage on localhost
 - `python3 manage.py makemigrations`
