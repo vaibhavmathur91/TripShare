@@ -1,0 +1,12 @@
+# Editor
+.idea/
+
+# Python
+__pycache__/
+setup/
+
+# Django
+static/
+media/
+migrations/
+db.sqlite3*

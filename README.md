@@ -22,6 +22,7 @@ Everyone is welcome to contribute!  Also if you find any bugs or you have some i
 - [ ] Login Page 
 - [ ] Guest Users
 - [ ] Home Page(inital setup with headers and footers)
+- [ ] License
 
 # Author
 - Vaibhav Mathur(https://github.com/vaibhavmathur91)
