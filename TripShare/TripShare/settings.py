@@ -119,10 +119,13 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
-STATIC_URL = '/static/'
 
 #  ------------------------  Add On Settings  ------------------------  ####
+STATIC_URL = '/static/'
 STATIC_ROOT = STATIC_URL
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = MEDIA_URL
 
 # Organisation
 ORGANISATION_NAME = 'TripShare'
