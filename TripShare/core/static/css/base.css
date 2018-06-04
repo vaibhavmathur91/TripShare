@@ -1,0 +1,13 @@
+html, body, .main {height: 100%;}
+
+.content{
+    min-height: 100%;
+}
+
+.footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+

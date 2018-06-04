@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'authentication',
+    'core',
     'blog',
 ]
 
@@ -72,17 +72,6 @@ TEMPLATES = [
 WSGI_APPLICATION = 'TripShare.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/2.0/ref/settings/#databases
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
-
-
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
 
@@ -115,28 +104,3 @@ USE_L10N = True
 
 USE_TZ = True
 
-
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/2.0/howto/static-files/
-
-
-#  ------------------------  Add On Settings  ------------------------  ####
-STATIC_URL = '/static/'
-STATIC_ROOT = STATIC_URL
-
-MEDIA_URL = '/media/'
-MEDIA_ROOT = MEDIA_URL
-
-# Organisation
-ORGANISATION_NAME = 'TripShare'
-ORGANISATION_REPLY_TO_EMAIL = 'vaibhav09121991@gmail.com'
-ORGANISATION_FROM_EMAIL = 'vaibhav09121991@gmail.com'
-
-
-path_1 = os.getcwd() + r'/static'
-STATICFILES_DIRS = (path_1, )
-TEMPLATE_CONTEXT_PROCESSORS = ['django.core.context_processors.static', ]
-
-# Auth urls
-LOGIN_URL = '/auth/login/'
-LOGIN_REDIRECT_URL = '/auth/home/'
