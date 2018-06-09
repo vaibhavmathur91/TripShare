@@ -19,7 +19,6 @@ from django.conf.urls import url
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'', include('core.urls')),
-    # path('/login-user', core_view.login-user, name="login-user"),
-    # path('/logout-user', core_view.logout-user, name="logout-user"),
+    url('', include('core.urls')),
+    url('blog', include('blog.urls')),
 ]
